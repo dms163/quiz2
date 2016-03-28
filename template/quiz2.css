@@ -1,25 +1,37 @@
 html body {
 	font-family: 'Helvetica', Arial, sans-serif;
-	color: #111
+	color: #111;
 	background: #E7E7E7;
 }
 
 a {
 	color: #0078A0;
 }
+.timeout{
+	background-color: antiquewhite;
+}
+.click{
+	background-color: crimson;
+}
+.mouse-over{
+	background-color: darkorange;
+}
 
 .content {
-	text-align: center
+	text-align: center;
 	padding: 0 15% 20px;
+}
+.submit{
+	background-color: darkgrey;
 }
 
 .content h1 {
 	text-transform: uppercase;
 	font-weight: bold;
 	margin: 20px 0;
+}
 
-
-content form {
+form {
 	padding: 10px;
 	width: 300px;
 	margin: 0 auto;
@@ -30,27 +42,5 @@ content form {
 	// border: 2px solid #107394;
 	color: #107394;
 	background: transparent;
-	magrin-bottom: 15px;
-}
-
-.content div {
-	margin-bottom: 25px;
-	padding: 10px;
-	width: 100%;
-}
-
-.click {
-	background: #ADD8E6;
-}
-
-.mouse-over {
-	background: #CF6E0E;
-}
-
-.submit {
-	background: #43AC6A;
-}
-
-.timeout {
-	background: #CCCCCC;
+	margin-bottom: 15px;
 }
